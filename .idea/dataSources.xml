@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Oracle - @sc-oracle2" uuid="13f86ada-ab7c-4213-818d-e43677ef7660">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//sc-oracle2:1521/SCKASSA</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -7,5 +7,23 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//sc-oracle2:1521/SCKASSA</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="b6a4a450-f29c-40ea-996e-0b689efdcabf">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @localhost" uuid="882c6b90-cd8f-45d8-9e33-fd63aa886808">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @localhost [2]" uuid="bce98c6e-3f8f-48cc-a020-01fc095c798d">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/orcl</jdbc-url>
+    </data-source>
   </component>
 </project>

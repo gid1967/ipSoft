@@ -9,7 +9,7 @@
         <properties>
             <!--Oracle-->
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@sc-oracle2:1521:SCKASSA"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
             <property name="javax.persistence.jdbc.user" value="gidpost"/>
             <property name="javax.persistence.jdbc.password" value="bel769"/>
             <property name="javax.persistence.target-database" value="Oracle"/>
@@ -45,7 +45,7 @@
         <properties>
             <!--Oracle-->
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@sc-oracle2:1521:SCKASSA"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
             <property name="javax.persistence.jdbc.user" value="gid"/>
             <property name="javax.persistence.jdbc.password" value="bel769"/>
             <property name="javax.persistence.target-database" value="Oracle"/>
